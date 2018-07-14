@@ -14,7 +14,7 @@ import org.springframework.test.context.junit4.SpringRunner;
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
-public class RyanairApplicationIT {
+public class RyanairApplication_IT {
 
 	/**
 	 * Tests that the Spring Boot context loads correctly.
