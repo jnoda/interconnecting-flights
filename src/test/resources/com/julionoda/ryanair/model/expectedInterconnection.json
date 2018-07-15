@@ -1,0 +1,12 @@
+{
+	"stops": 0,
+	"legs": [
+		{
+			"number": "234",
+			"departureAirport": "DUB",
+			"arrivalAirport": "MAD",
+			"departureDateTime": "2018-07-15T23:07",
+			"arrivalDateTime": "2018-07-16T08:06"
+		}
+	]
+}

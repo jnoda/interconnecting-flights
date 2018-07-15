@@ -2,6 +2,8 @@ package com.julionoda.ryanair.model;
 
 import java.time.LocalDateTime;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 import lombok.NonNull;
 import lombok.Value;
 
@@ -35,11 +37,13 @@ public class Flight {
 	 * Departure date and time in the departure airport timezone.
 	 */
 	@NonNull
+	@JsonFormat(pattern = "yyyy-MM-dd'T'HH:mm")
 	private LocalDateTime departureDateTime;
 
 	/**
 	 * Arrival date and time in the arrival airport timezone.
 	 */
 	@NonNull
+	@JsonFormat(pattern = "yyyy-MM-dd'T'HH:mm")
 	private LocalDateTime arrivalDateTime;
 }
